@@ -3,7 +3,7 @@
 
 
 
-name: Sunert-sync
+name: sync-Sunert-scripts
 on:
  # schedule:
   #  - cron: '1 */3 * * *'
