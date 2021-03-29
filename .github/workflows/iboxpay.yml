@@ -19,7 +19,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone https://github.com/gz16176531/wgwy.git ~/wgwy
+          git clone https://github.com/gz154838009/wgwy.git ~/wgwy
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
