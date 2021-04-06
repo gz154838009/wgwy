@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event.repository.owner.id == github.event.sender.id
     env:
-        KS_TOKEN: ${{ secrets.KS_TOKEN }}
+        KS_TOKEN: ${{ secrets.KS_TOKEN01 }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
