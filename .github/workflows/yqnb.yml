@@ -28,12 +28,13 @@ jobs:
       - name: npm install
         if: env.YQNB_yqnbHEADER
         run: |
-          cd ~/Ziye
+          cd ~/wgwy
+          git checkout ZIYE
           npm install
       - name: '运行 【易趣牛帮】'
         if: env.YQNB_yqnbHEADER
         run: |
-          cd ~/Ziye
+          cd ~/wgwy
           node Task/yqnb.js
         env:
           
