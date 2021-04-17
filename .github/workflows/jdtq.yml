@@ -1,0 +1,28 @@
+name: 简单天气
+
+on:
+  workflow_dispatch:
+  schedule:
+     - cron: '2,32 16-23,0-8 * * *'
+  watch:
+    types: started
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: github.event.repository.owner.id == github.event.sender.id
+    steps:
+      - name: Checkout
+        run: |
+          git clone https://github.com/gz154838009/wgwy.git ~/wgwy
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: npm install
+        run: |
+          cd ~/wgwy
+          npm install
+      - name: '运行 【简单天气】'     
+        run: |
+          cd ~/wgwy
+          node Task/jdtq.js
