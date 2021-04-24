@@ -1,5 +1,5 @@
 # File: .github/workflows/repo-sync.yml
-name: sync-Sunert-scripts
+name: sync-Sunert
 on:
  # schedule:
   #workflow_dispatch:
