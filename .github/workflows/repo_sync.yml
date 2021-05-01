@@ -2,7 +2,7 @@
 name: sync-Sunert
 on:
  # schedule:
-  #workflow_dispatch:
+  workflow_dispatch:
   watch:
     types: started
   repository_dispatch:
