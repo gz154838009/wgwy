@@ -77,7 +77,7 @@
         {
       "id": "ttwk",
       "name": "天天挖矿",
-      "keys": ["ttwk","ttwksignurl","ttwksignheader","ttwksignbody"],
+      "keys": ["ttwksignurl","ttwksignheader","ttwksignbody"],
       "author": "@yangtingxiao",
       "repo": "https://github.com/yangtingxiao/QuantumultX/raw/master/scripts/ttwk/ttwk.js",
       "script": "https://github.com/yangtingxiao/QuantumultX/raw/master/scripts/ttwk/ttwk.js",
