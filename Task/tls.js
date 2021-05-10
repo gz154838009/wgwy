@@ -79,31 +79,6 @@ if ($.isNode() && process.env.TLS_tlsHEADER) {
     XYZ = process.env.TLS_XYZ || "100";
     hyidA = process.env.TLS_hyidA || "64926";
     hyidB = process.env.TLS_hyidB || "70405";
-    hyidC = process.env.TLS_hyidC || "73261";
-    hyidD = process.env.TLS_hyidD || "98692";
-    hyidE = process.env.TLS_hyidE || "98825";
-    hyidF = process.env.TLS_hyidF || "98860";
-    hyidG = process.env.TLS_hyidG || "98910";
-    hyidH = process.env.TLS_hyidH || "114043";
-    hyidI = process.env.TLS_hyidI || "114736";
-    hyidJ = process.env.TLS_hyidJ || "112833";
-    hyidK = process.env.TLS_hyidK || "113329";
-
-    hyidL = process.env.TLS_hyidL || "109172";
-    hyidM = process.env.TLS_hyidM || "364156";
-    hyidN = process.env.TLS_hyidN || "147562";
-    hyidO = process.env.TLS_hyidO || "161866";
-    hyidP = process.env.TLS_hyidP || "109012";
-    hyidQ = process.env.TLS_hyidQ || "109377";
-    hyidR = process.env.TLS_hyidR || "397595";
-    hyidS = process.env.TLS_hyidS || "114992";
-    hyidT = process.env.TLS_hyidT || "117104";
-    hyidU = process.env.TLS_hyidU || "122263";
-    hyidV = process.env.TLS_hyidV || "141969";
-    hyidW = process.env.TLS_hyidW || "110059";
-    hyidX = process.env.TLS_hyidX || "117972";
-    hyidY = process.env.TLS_hyidY || "206817";
-    hyidZ = process.env.TLS_hyidZ || "109566";
 
     notifyttt = process.env.TLS_notifyttt || "1";
     notifyInterval = process.env.TLS_notifyInterval || "1";
@@ -211,85 +186,6 @@ if ($.isNode() && process.env.TLS_tlsHEADER) {
     }
     if ("tlshyidB") {
         hyidB = $.getval("tlshyidB") || '70405';
-    }
-    if ("tlshyidC") {
-        hyidC = $.getval("tlshyidC") || '73261';
-    }
-    if ("tlshyidD") {
-        hyidD = $.getval("tlshyidD") || '98692';
-    }
-    if ("tlshyidE") {
-        hyidE = $.getval("tlshyidE") || '98825';
-    }
-    if ("tlshyidF") {
-        hyidF = $.getval("tlshyidF") || '98860';
-    }
-    if ("tlshyidG") {
-        hyidG = $.getval("tlshyidG") || '98910';
-    }
-    if ("tlshyidH") {
-        hyidH = $.getval("tlshyidH") || '114043';
-    }
-
-    if ("tlshyidI") {
-        hyidI = $.getval("tlshyidI") || '114736';
-    }
-    if ("tlshyidJ") {
-        hyidJ = $.getval("tlshyidJ") || '112833';
-    }
-    if ("tlshyidK") {
-        hyidK = $.getval("tlshyidK") || '113329';
-    }
-
-
-
-    if ("tlshyidL") {
-        hyidL = $.getval("tlshyidL") || '109172';
-    }
-    if ("tlshyidM") {
-        hyidM = $.getval("tlshyidM") || '364156';
-    }
-    if ("tlshyidN") {
-        hyidN = $.getval("tlshyidN") || '147562';
-    }
-    if ("tlshyidO") {
-        hyidO = $.getval("tlshyidO") || '161866';
-    }
-    if ("tlshyidP") {
-        hyidP = $.getval("tlshyidP") || '109012';
-    }
-
-    if ("tlshyidQ") {
-        hyidQ = $.getval("tlshyidQ") || '109377';
-    }
-    if ("tlshyidR") {
-        hyidR = $.getval("tlshyidR") || '397595';
-    }
-    if ("tlshyidS") {
-        hyidS = $.getval("tlshyidS") || '114992';
-    }
-    if ("tlshyidT") {
-        hyidT = $.getval("tlshyidT") || '117104';
-    }
-    if ("tlshyidU") {
-        hyidU = $.getval("tlshyidU") || '122263';
-    }
-
-
-    if ("tlshyidV") {
-        hyidV = $.getval("tlshyidV") || '141969';
-    }
-    if ("tlshyidW") {
-        hyidW = $.getval("tlshyidW") || '110059';
-    }
-    if ("tlshyidX") {
-        hyidX = $.getval("tlshyidX") || '117972';
-    }
-    if ("tlshyidY") {
-        hyidY = $.getval("tlshyidY") || '206817';
-    }
-    if ("tlshyidZ") {
-        hyidZ = $.getval("tlshyidZ") || '109566';
     }
 
 
