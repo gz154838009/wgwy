@@ -129,32 +129,6 @@ if ($.isNode() && process.env.TLS_tlsHEADER) {
     notifyttt = (COOKIE.settings.find(item => item.id === `tlsnotifyttt`)).val;
     hyidA = (COOKIE.settings.find(item => item.id === `tlshyidA`)).val;
     hyidB = (COOKIE.settings.find(item => item.id === `tlshyidB`)).val;
-    hyidC = (COOKIE.settings.find(item => item.id === `tlshyidC`)).val;
-    hyidD = (COOKIE.settings.find(item => item.id === `tlshyidD`)).val;
-    hyidE = (COOKIE.settings.find(item => item.id === `tlshyidE`)).val;
-    hyidF = (COOKIE.settings.find(item => item.id === `tlshyidF`)).val;
-    hyidG = (COOKIE.settings.find(item => item.id === `tlshyidG`)).val;
-    hyidH = (COOKIE.settings.find(item => item.id === `tlshyidH`)).val;
-    hyidI = (COOKIE.settings.find(item => item.id === `tlshyidI`)).val;
-    hyidJ = (COOKIE.settings.find(item => item.id === `tlshyidJ`)).val;
-    hyidK = (COOKIE.settings.find(item => item.id === `tlshyidK`)).val;
-
-    hyidL = (COOKIE.settings.find(item => item.id === `tlshyidL`)).val;
-    hyidM = (COOKIE.settings.find(item => item.id === `tlshyidM`)).val;
-    hyidN = (COOKIE.settings.find(item => item.id === `tlshyidN`)).val;
-    hyidO = (COOKIE.settings.find(item => item.id === `tlshyidO`)).val;
-    hyidP = (COOKIE.settings.find(item => item.id === `tlshyidP`)).val;
-    hyidQ = (COOKIE.settings.find(item => item.id === `tlshyidQ`)).val;
-    hyidR = (COOKIE.settings.find(item => item.id === `tlshyidR`)).val;
-    hyidS = (COOKIE.settings.find(item => item.id === `tlshyidS`)).val;
-    hyidT = (COOKIE.settings.find(item => item.id === `tlshyidT`)).val;
-    hyidU = (COOKIE.settings.find(item => item.id === `tlshyidU`)).val;
-    hyidV = (COOKIE.settings.find(item => item.id === `tlshyidV`)).val;
-    hyidW = (COOKIE.settings.find(item => item.id === `tlshyidW`)).val;
-    hyidX = (COOKIE.settings.find(item => item.id === `tlshyidX`)).val;
-    hyidY = (COOKIE.settings.find(item => item.id === `tlshyidY`)).val;
-    hyidZ = (COOKIE.settings.find(item => item.id === `tlshyidZ`)).val;
-
 
 
 
