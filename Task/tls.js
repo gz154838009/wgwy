@@ -581,7 +581,7 @@ async function all() {
                 await task();
 
 
-                HYID = [hyidA, hyidB, hyidC, hyidD, hyidE, hyidF, hyidG, hyidH, hyidI, hyidJ, hyidK, hyidL, hyidM, hyidN, hyidO, hyidP, hyidQ, hyidR, hyidS, hyidT, hyidU, hyidV, hyidW, hyidX, hyidY, hyidZ]
+                HYID = [hyidA, hyidB]
                 K = `好友信息🚩`;
                 tlsurl = `https://xw.mengniu.cn/grass/Api/TelunsuHandler.ashx?method=GetUserFriendInfo`
                 tlsbody = `userid=${HYID[0]}`
