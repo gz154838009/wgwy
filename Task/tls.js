@@ -62,7 +62,7 @@ const logs = 0; // 0关闭日志，1原始日志，2格式化，3格式化且解
 notifyttt = 1; // 0为关闭外部推送，1为12 23 点外部推送
 notifyInterval = 1; // 0为关闭通知，1为所有通知，2为12 23 点通知  ， 3为 6 12 18 23 点通知 
 Minutes = 10; // 通知 默认控制在0-10分内
-$.message = '', COOKIES_SPLIT = '', CASH = '', HYIDS = 1, hyidA = 0, hyidB = 0, XH = 0, XYZ = 100, Length = 0, ddtime = '';
+$.message = '', COOKIES_SPLIT = '', CASH = '', HYIDS = 1, hyidA = 0, hyidB = 0, hyidC = 0, hyidD = 0, hyidE = 0, hyidF = 0, hyidG = 0, hyidH = 0, hyidI = 0, hyidJ = 0, hyidK = 0, hyidL = 0, hyidM = 0, hyidN = 0, hyidO = 0, hyidP = 0, hyidQ = 0, hyidR = 0, hyidS = 0, hyidT = 0, hyidU = 0, hyidV = 0, hyidW = 0, hyidX = 0, hyidY = 0, hyidZ = 0, XH = 0, XYZ = 100, Length = 0, ddtime = '';
 
 tlsbodys = ``;
 let tlsurlArr = [];
