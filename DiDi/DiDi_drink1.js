@@ -25,7 +25,7 @@ const wsgsig = [
 ];
 
 !(async () => {
-	$.Ticket = $.read("#DiDi");
+	$.Ticket = $.read("#DiDi1");
 	if (!$.Ticket) {
 		throw new ERR.TokenError("❌ 未获取或填写 Token");
 	} else {
