@@ -107,7 +107,7 @@ if ($.isRequest) {
 	$.done({});
 } else {
 	!(async () => {
-		$.Ticket = $.read("#DiDi");
+		$.Ticket = $.read("#DiDi1");
 		$.city = $.read("#DiDi_city");
 		$.now = new Date().getTime();
 		if (!$.Ticket || !$.city) {
