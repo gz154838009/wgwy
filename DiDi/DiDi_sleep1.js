@@ -15,7 +15,7 @@ const wsgsig =
 	"dd03-WziVdQy4iGgitH6QYwu5IonNqWzQXTOhZOz958WIqWzRsP5ZRLfFHop1hf8Rs1ejzHvIKynNrjowrHqroLzg5yWJ%2Fj%2BQsHIRpwQCIy4BUGfuq12nv2QDHoQL";
 
 !(async () => {
-	$.Ticket = $.read("#DiDi");
+	$.Ticket = $.read("#DiDi1");
 	if (!$.Ticket) {
 		throw new ERR.TokenError("❌ 未获取或填写 Token");
 	} else {
