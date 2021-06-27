@@ -11,7 +11,7 @@
       "name": "抖音极速版刷音符",
       "keys": ["headers"],
       "author": "@passerby-b",
-      "repo": "https://gitee.com/passerby-b/javascript/raw/master/JD/passerby-b.boxjs.json",
+      "repo": "https://gitee.com/passerby-b/javascript/raw/master/dyjs.js",
       "script": "https://gitee.com/passerby-b/javascript/raw/master/dyjs.js",
       "icons": ["https://gitee.com/passerby-b/javascript/raw/master/icon/dyjsb.png",
         "https://gitee.com/passerby-b/javascript/raw/master/icon/dyjsb.png"]
