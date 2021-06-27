@@ -9,7 +9,7 @@
         {
       "id": "dyjs",
       "name": "抖音极速版刷音符",
-      "keys": ["headers"],
+      "keys": ["headers","headlist"],
       "author": "@passerby-b",
       "repo": "https://gitee.com/passerby-b/javascript/raw/master/dyjs.js",
       "script": "https://gitee.com/passerby-b/javascript/raw/master/dyjs.js",
