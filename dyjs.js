@@ -5,7 +5,7 @@
 //如果需要在服务器上用nodejs运行则需要用boxjs把缓dyheadlist导出放到相同路径文件下下dyjs.json文件里
 //TG群:https://t.me/joinchat/wH4Ks3mT6mxiMDg1
 
-// [mitm]
+// [mitm] 
 // hostname = *.snssdk.com,*.amemv.com
 
 //==========================Quantumultx=========================
